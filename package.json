@@ -1,0 +1,15 @@
+{
+  "name": "zecmart-automint",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Resilient auto-mint client for the ZecMart launchpad (ZecPuppets)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "recon": "node index.js --recon",
+    "rehearse": "node index.js --rehearse",
+    "reconcile": "node index.js --reconcile"
+  },
+  "engines": { "node": ">=20" }
+}

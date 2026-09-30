@@ -1,0 +1,37 @@
+{
+  "baseUrl": "https://zecmart.com",
+  "wallets": [],
+  "walletsFile": "wallets.txt",
+  "quantity": 2,
+  "timing": {
+    "leadMs": -300,
+    "preOpenMs": 95000,
+    "spreadMs": 150,
+    "hotRetryMs": 2000,
+    "hotWindowMs": 60000,
+    "coolRetryMs": 1200,
+    "maxRunMs": 21600000,
+    "hedgeAfterMs": 4000,
+    "maxInFlight": 1,
+    "quietBeforeMs": 60000,
+    "throttleBackoffMs": 45000,
+    "throttleBackoffMaxMs": 150000
+  },
+  "network": {
+    "warmSockets": 2,
+    "requestTimeoutMs": 12000,
+    "connectTimeoutMs": 6000,
+    "maxSockets": 32,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+    "windowBudget": 1,
+    "windowMs": 45000,
+    "bootstrapTries": 2
+  },
+  "behaviour": {
+    "stopOnSoldOut": true,
+    "confirmOrders": true,
+    "maxUnknownErrors": 100000,
+    "reconcileIntervalMs": 2500
+  },
+  "launchAtOverride": "2026-09-18T14:55:20.000Z"
+}
